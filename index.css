@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 14%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 14%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 14%;
+    
+    /* SwiftLink Brand Colors */
+    --primary: 223 45% 51%;        /* #415caa - Royal Blue */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 59 81% 54%;       /* #e9e729 - Bright Yellow */
+    --secondary-foreground: 0 0% 14%;
+    
+    --muted: 60 8% 86%;            /* #dbddd8 - Soft Neutral Gray */
+    --muted-foreground: 0 0% 45%;
+    
+    --accent: 59 81% 54%;          /* #e9e729 - Yellow accent */
+    --accent-foreground: 0 0% 14%;
+    
+    --charcoal: 300 3% 13%;        /* #231f20 - Charcoal */
+    
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 60 8% 90%;
+    --input: 60 8% 90%;
+    --ring: 223 45% 51%;
+    
+    --radius: 0.75rem;
+    
+    /* Custom Design Tokens */
+    --gradient-hero: linear-gradient(135deg, hsl(223 45% 51%), hsl(223 45% 41%));
+    --gradient-cta: linear-gradient(135deg, hsl(59 81% 54%), hsl(59 81% 44%));
+    --shadow-soft: 0 4px 20px -4px hsl(223 45% 51% / 0.15);
+    --shadow-elevated: 0 10px 30px -10px hsl(223 45% 51% / 0.25);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 300 3% 13%;      /* Charcoal background */
+    --foreground: 0 0% 100%;
+    
+    --card: 300 3% 18%;
+    --card-foreground: 0 0% 100%;
+    
+    --popover: 300 3% 18%;
+    --popover-foreground: 0 0% 100%;
+    
+    --primary: 223 45% 56%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 59 81% 54%;
+    --secondary-foreground: 0 0% 14%;
+    
+    --muted: 300 3% 25%;
+    --muted-foreground: 60 8% 70%;
+    
+    --accent: 59 81% 54%;
+    --accent-foreground: 0 0% 14%;
+    
+    --charcoal: 300 3% 13%;
+    
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 300 3% 25%;
+    --input: 300 3% 25%;
+    --ring: 223 45% 56%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .text-charcoal {
+    color: hsl(var(--charcoal));
+  }
+  
+  .bg-charcoal {
+    background-color: hsl(var(--charcoal));
+  }
+  
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+  
+  .gradient-cta {
+    background: var(--gradient-cta);
+  }
+  
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+  
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+  
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+}
+
+#lovable-badge { 
+  display: none !important; 
+}
