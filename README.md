@@ -1,57 +1,73 @@
-# SwiftLink
-#  SwiftLink — Digital Waybill Solution for Nigerian MSMEs
+# Welcome to your Lovable project
 
-SwiftLink is a digital logistics platform designed to **digitize and simplify waybills** for **Micro, Small, and Medium Enterprises (MSMEs)** in Nigeria.  
-Our mission is to bring **trust, speed, and transparency** into the logistics process — eliminating paper-based waybills and enabling **real-time tracking**, **driver verification**, and **seamless delivery management**.
+## Project info
 
+**URL**: https://lovable.dev/projects/a07c3e7c-b0c1-40f8-beaa-21ce75719157
 
+## How can I edit this code?
 
-## Overview
+There are several ways of editing your application.
 
-SwiftLink allows MSMEs to:
-- Create digital waybills easily
-- Generate **unique tracking IDs and QR codes**
-- Track deliveries in **real-time** with live GPS
-- Get notified when goods are picked up or delivered
-- Onboard verified **drivers** through KYC verification
-- Manage everything from an intuitive **dashboard**
+**Use Lovable**
 
-  ## Future Update
-  - Use **voice assistive technology** to interact with the app
-  -  Access services via **USSD code** (for offline users)
+Simply visit the [Lovable Project](https://lovable.dev/projects/a07c3e7c-b0c1-40f8-beaa-21ce75719157) and start prompting.
 
-We are focused on **digitizing logistics for Nigeria’s MSME ecosystem** — one delivery at a time.
+Changes made via Lovable will be committed automatically to this repo.
 
-##  Target Users
+**Use your preferred IDE**
 
-SwiftLink serves three main user types:
-1. **MSMEs (Business Owners)** — Create and track digital waybills
-2. **Drivers** — Deliver goods with verified identities (KYC)
-3. **Logistics Operators/Admins** — Oversee, manage, and verify all activity on the platform
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-##  Key Features
+Follow these steps:
 
-| Feature | Description |
-|----------|-------------|
-|  Digital Waybill | MSMEs can create, store, and share electronic waybills instantly |
-|  Real-time Tracking | Track deliveries using live GPS and unique QR codes |
-|  USSD Integration | Offline users can track their deliveries without internet |
-|  Driver Verification | Drivers complete KYC for trust and safety |
-|  Notifications | Customers receive SMS/email updates on delivery progress |
-|  Admin Dashboard | Admin manages users, deliveries, and overall system performance |
-|  Responsive Design | Works on all devices — web, tablet, and mobile |
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
+# Step 3: Install the necessary dependencies.
+npm i
 
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-## ⚙️ Installation & Setup
+**Edit a file directly in GitHub**
 
-Follow these steps to run SwiftLink locally:
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-### 1. Clone the Repository
-```bash
-git https://github.com/devmuhakeem/SwiftLink/
-cd swiftlink
+**Use GitHub Codespaces**
 
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/a07c3e7c-b0c1-40f8-beaa-21ce75719157) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
