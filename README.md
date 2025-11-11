@@ -13,14 +13,14 @@ SwiftLink allows MSMEs to:
 - Generate **unique tracking IDs and QR codes**
 - Track deliveries in **real-time** with live GPS
 - Get notified when goods are picked up or delivered
-- Use **voice assistive technology** to interact with the app
-- Access services via **USSD code** (for offline users)
 - Onboard verified **drivers** through KYC verification
 - Manage everything from an intuitive **dashboard**
 
-We are focused on **digitizing logistics for Nigeria’s MSME ecosystem** — one delivery at a time.
+  ## Future Update
+  - Use **voice assistive technology** to interact with the app
+  -  Access services via **USSD code** (for offline users)
 
----
+We are focused on **digitizing logistics for Nigeria’s MSME ecosystem** — one delivery at a time.
 
 ##  Target Users
 
