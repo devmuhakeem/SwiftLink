@@ -1,5 +1,5 @@
 # SwiftLink
-# 🚀 SwiftLink — Digital Waybill Solution for Nigerian MSMEs
+#  SwiftLink — Digital Waybill Solution for Nigerian MSMEs
 
 SwiftLink is a digital logistics platform designed to **digitize and simplify waybills** for **Micro, Small, and Medium Enterprises (MSMEs)** in Nigeria.  
 Our mission is to bring **trust, speed, and transparency** into the logistics process — eliminating paper-based waybills and enabling **real-time tracking**, **driver verification**, and **seamless delivery management**.
@@ -45,29 +45,6 @@ SwiftLink serves three main user types:
 
 
 
----
-
-## 🛠️ Tech Stack
-
-**Frontend:**
-- Typescript
-- Tailwind CSS  
-- HTML
-- CSS
-- Voice Recognition API (Speech-to-Text)  (Future)
-
-**Backend:**
-- Node.js / Express.js  
-- SQL
-- JWT Authentication  (Future)
-- Cloudinary (File & image uploads)  (Future)
-- Twilio or Termii (SMS notifications)  (FUture)
-
-**Other Integrations:**
-- Mapbox API (GPS tracking)    
-- QR Code Generator  
-
----
 
 ## ⚙️ Installation & Setup
 
