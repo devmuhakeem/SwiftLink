@@ -37,7 +37,6 @@ SwiftLink serves three main user types:
 |  Digital Waybill | MSMEs can create, store, and share electronic waybills instantly |
 |  Real-time Tracking | Track deliveries using live GPS and unique QR codes |
 |  USSD Integration | Offline users can track their deliveries without internet |
-|  Voice Assistive Tech | Users can create or track waybills using voice commands |
 |  Driver Verification | Drivers complete KYC for trust and safety |
 |  Notifications | Customers receive SMS/email updates on delivery progress |
 |  Admin Dashboard | Admin manages users, deliveries, and overall system performance |
